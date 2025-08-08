@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+.poppins {
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 400;
+  }
+
+.poppins-bold {
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 700;
+  }
+
+.goldman-regular {
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.goldman-bold {
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.card-hover {
+  size: 10%;
+}
+
+.black-green {
+  color: #1a1a19;
+}
+.dark-green {
+  color: #31511e;
+}
+.lime-green {
+  color: #859f3d;
+}
+.white-green {
+  color: #f6fcdf;
+}
+
+
+/* @media (max-width: 640px) {
+  .porto-h-mobile {
+    
+  }
+} */
+
+/* ======== TABLET (641px - 1024px) ======== */
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  .porto-h-tablet {
+    top: clamp(600px, 720px, 900px);
+  }
+}
+
+.porto-h-desktop {
+  top: 721px;
+} */
+
+/* ======== DESKTOP (1025px ke atas) ======== */
+/* @media (min-width: 1025px) {
+  .porto-h-desktop {
+    top: 900px;
+  }
+} */
