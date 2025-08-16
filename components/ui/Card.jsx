@@ -52,7 +52,7 @@ export default function Card() {
           combination of several designs.
         </p>
         <div className="w-[90%] aspect-[16/9] rounded-4xl border-[1px] border-[#f6fcdf] shadow-[0px_2px_15px_rgba(133,159,61,0.5)] overflow-hidden">
-          <img src="/images/Dstore1.jpg" alt="Other Design" className="w-full h-full object-cover" />
+          <img src="/images/DirgahayuPoster.jpg" alt="Other Design" className="w-full h-full object-cover" />
         </div>
       </div>
       {/* Card 1/      -Thumbnail Design- */}
@@ -98,6 +98,8 @@ export default function Card() {
             ref={outsideClick}>
             <h2 className="white-green text-5xl font-bold">Other Design</h2>
             <div className="flex pt-5 pb-5 flex-wrap justify-center items-center gap-[50px]">
+              <img src="/images/Mouse.jpg" alt="Mouse Design" className="w-[45%] h-auto rounded-4xl shadow-[0px_2px_15px_rgba(133,159,61,0.5)] mt-4" />
+              <img src="/images/DirgahayuPoster.jpg" alt="Indonesia HUT RI 80" className="w-[45%] h-auto rounded-4xl shadow-[0px_2px_15px_rgba(133,159,61,0.5)] mt-4" />
               <img src="/images/Cosmetic.jpg" alt="Cosmetic Ads" className="w-[45%] h-auto rounded-4xl shadow-[0px_2px_15px_rgba(133,159,61,0.5)] mt-4" />
               <img src="/images/Dlogo1.png" alt="Logo Mockup 1" className="w-[45%] h-auto rounded-4xl shadow-[0px_2px_15px_rgba(133,159,61,0.5)] mt-4" />
               <img src="/images/Dlogo2.png" alt="Logo Mockup 2" className="w-[45%] h-auto rounded-4xl shadow-[0px_2px_15px_rgba(133,159,61,0.5)] mt-4" />
