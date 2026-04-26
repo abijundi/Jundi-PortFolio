@@ -29,18 +29,14 @@ export default function TextAnimation() {
     return (
         <div className="fixed sm:top-[180px] md:top-[250px] lg:top-[280px] xl:top-[300px]
          sm:left-[70px] md:left-[140px] lg:left-[180px] xl:left-[240px]
-         p-4 [text-shadow:2px_2px_4px_rgba(255,255,255,0.3 ) z-20]
-                        w-auto h-auto bg-white/55 backdrop-blur-md shadow-lg rounded-xl">
-            <div className={"flex sm:text-2xl md:text-3xl lg:text-4xl xl:text-[50px] dark-green goldman-regular"}>
+         p-4 text-[var(--dark2)]
+         w-auto h-auto bg-gradient-to-br from-[rgba(253,253,253,0.9)] to-[rgba(253,253,253,1)] backdrop-blur-md shadow-lg rounded-xl hover:shadow-2px-[0px_0px_5px_rgba(255,125,41,1)]">
+            <div className={"flex sm:text-2xl md:text-3xl lg:text-4xl xl:text-[50px] goldman-bold"}>
                 <h1 className="">Hello, I'm</h1>
                 <h1 className="border-r-2 border-white pl-4 pr-1">{displayText}</h1>
             </div>
             <div className="pr-1.5 flex ">
-                <h2 className="dark-green goldman-regular sm:text-2xl md:text-3xl lg:text-4xl xl:text-[50px]" >Create with</h2>
-                <div className="gap-3 flex items-center pl-4 black-green ">
-                    <a href="https://nextjs.org/" className="" target="blank"><NextIcon className=" w-[78px] h-[70px]" /></a>
-                    <a href="https://vercel.com/home" target="blank"><VercelIcon className="w-[30px] h-[30px]" /></a>
-                </div>
+                <h2 className="goldman-bold sm:text-2xl md:text-3xl lg:text-4xl xl:text-[50px]" >GUGUGAGA MALES UPDATE</h2>
             </div>
         </div>
     );

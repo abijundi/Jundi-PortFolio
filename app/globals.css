@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 
+:root {
+  --dark1 : #37353E;
+  --dark2 : #44444E;
+  --white1 : #FDFDFD;
+  --orange1 : #FF7D29;
+}
+
 .poppins {
     font-family: var(--font-poppins), sans-serif;
     font-weight: 400;
@@ -16,28 +23,43 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+   
 .goldman-bold {
     font-family: "Goldman", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
 
-.card-hover {
-  size: 10%;
+.cta-contact{
+  @apply fixed flex flex-col left-2 top-1/2 -translate-y-1/2 w-auto h-auto py-2.5 px-2 border-solid border-[2px] border-[var(--orange1)] 
+  shadow-[0px_0px_5px_rgba(255,125,41,0.78)] hover:shadow-[1px_1px_4px_rgba(255,125,41,0.5)] rounded-4xl gap-[20px] z-200 bg-[var(--dark1)]
 }
 
-.black-green {
-  color: #1a1a19;
+.thumb-style {
+  @apply w-[90%] h-auto rounded-4xl shadow-[0px_2px_15px_rgba(133,159,61,0.5)] mt-4 border-1 border-[var(--white1)]
 }
-.dark-green {
-  color: #31511e;
+.other-design-style {
+  @apply w-[45%] h-auto rounded-4xl shadow-[0px_2px_15px_rgba(133,159,61,0.5)] mt-4 border-1 border-[var(--white1)]
 }
-.lime-green {
-  color: #859f3d;
+.social-media-style {
+  @apply w-[25%] h-auto rounded-4xl shadow-[0px_2px_15px_rgba(133,159,61,0.5)] mt-4 border-1 border-[var(--white1)]
 }
-.white-green {
-  color: #f6fcdf;
+
+.card-style {
+@apply bg-[var(--dark1)] border-1 border-[var(--orange1)] w-[350px] sm:w-[150px] md:w-[150px] lg:w-[350px] xl:w-[350px] 2xl:w-[450px]
+        h-[350px] sm:h-[300px] md:h-[300px] lg:h-[350px] xl:h-[300px] 2xl:h-[350px] 
+        py-4  rounded-2xl cursor-pointer shadow-2xl flex flex-col justify-between items-center hover:[scale:102%] hover:border-[var(--white1)]; 
+}
+.card-image-style{
+  @apply w-[90%] mx-auto h-auto rounded-4xl border-[1px] border-[var(--white1)] hover:border-[var(--orange1)] shadow-[0px_2px_15px_rgba(133,159,61,0.5)]
+}
+
+.card-h {
+  @apply text-[#eef1ff] text-[24px] sm:text-[12px] md:text-[12px] lg:text-[18px] xl:text-[24px] 2xl:text-[28px] text-center;
+}
+
+.card-p {
+  @apply text-[#eef1ff] text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-center;
 }
 
 

@@ -1,8 +1,8 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import { Goldman } from "next/font/google";
-import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
+import CtaContact from "../components/ui/CtaContact";
 
 // const poppins = Poppins({
 //   subsets: ["latin"],
@@ -20,8 +20,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en"
     >
-      <body>
-        <Navbar />
+      <body className="bg-[var(--dark1)]">
+        <CtaContact></CtaContact>
           {children}
         <Footer />
       </body>

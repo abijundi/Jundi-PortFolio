@@ -2,7 +2,6 @@ import Home from "./section/Home";
 import Porto from './section/Porto';
 
 
-
 const Page = () => {
 
   return (

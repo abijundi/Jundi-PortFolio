@@ -1,13 +1,13 @@
-Black= #1a1a19
-green lime= #859f3d
-dark green=  #31511e
-white green= #f6fcdf
+--dark1 : #37353E;
+--dark2 : #44444E;
+--white1 : #FDFDFD;
+--orange1 : #FF7D29;
 
 Z use
 z-50
 
 RGBA
-green lime = rgba(133,159,61,0.75)
-Black = rgba(26,26,25,1)
-dark green = rgba(49,81,30,1)
-white green = rgba(246,252,223,1)
+dark 1= rgb(55, 53, 62)
+dark2= rgb(68, 68, 78)
+white1= rgb(253, 253, 253)
+orange1= rgb(255, 125, 41)
