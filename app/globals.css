@@ -62,27 +62,15 @@
   @apply text-[#eef1ff] text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-center;
 }
 
-
-/* @media (max-width: 640px) {
-  .porto-h-mobile {
-    
-  }
-} */
-
-/* ======== TABLET (641px - 1024px) ======== */
-/* @media (min-width: 769px) and (max-width: 1024px) {
-  .porto-h-tablet {
-    top: clamp(600px, 720px, 900px);
-  }
+/* MOBILE 640 < */
+@media (max-width: 640px) {
+.cta-contact-m {
+  @apply absolute scale-75 flex flex-row left-1/2 top-[60px] -translate-x-1/2 w-auto h-auto border-solid border-[1px] border-[var(--orange1)] 
+  shadow-[0px_0px_5px_rgba(255,125,41,0.78)] hover:shadow-[1px_1px_4px_rgba(255,125,41,0.5)] rounded-4xl gap-[5px] z-200 bg-[var(--dark1)]
+}
 }
 
-.porto-h-desktop {
-  top: 721px;
-} */
+/* TABLET 641px > */
 
-/* ======== DESKTOP (1025px ke atas) ======== */
-/* @media (min-width: 1025px) {
-  .porto-h-desktop {
-    top: 900px;
-  }
-} */
+
+/* DESKTOP 1025 > */
